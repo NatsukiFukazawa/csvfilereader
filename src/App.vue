@@ -1,17 +1,21 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="vueの世界にようこそ！"/>
+    <h1>csvfilereader</h1>
+    <!--<HelloWorld msg="vueの世界にようこそ！"> -->
+    <csvfilereader></csvfilereader>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+import csvfilereader from './components/csvfilereader.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //HelloWorld,
+    csvfilereader
   }
 }
 </script>
