@@ -39,7 +39,7 @@ export default {
  
       reader.onload = () => {
         let lines = reader.result.split("\n");
-        lines.shift();
+        lines.shift();//最初の要素削除
         let linesArr = [];
         for (let i = 0; i < lines.length; i++) {
           linesArr[i] = lines[i].split(",");
